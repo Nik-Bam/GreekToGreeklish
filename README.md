@@ -17,7 +17,7 @@ Generates all possible words in Greeklish (including symbols and numbers), from 
 
 #### Output
 
-[Output File](output.txt)
+[Output File](data/output.txt)
 ```
 ...
 AgL@1A

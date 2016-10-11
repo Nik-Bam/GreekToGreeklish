@@ -7,11 +7,7 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-    public static void main(String[] args) {
-        new Main();
-    }
-
-    public Main() {
+    private Main() {
         StringBuilder strB = new StringBuilder();
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(
@@ -28,11 +24,15 @@ public class Main {
             System.exit(1);
         }
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("data/output.txt"))) {
             bw.append(strB);
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(1);
         }
+    }
+
+    public static void main(String[] args) {
+        new Main();
     }
 }
