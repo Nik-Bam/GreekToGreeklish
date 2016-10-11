@@ -10,14 +10,14 @@ Generates all possible words in Greeklish (including symbols and numbers), from 
 
 #### Input
 
-[Input File](data/input.txt)
 ```
 Αγλαΐα
 ```
 
+[Input File](data/input.txt)
+
 #### Output
 
-[Output File](data/output.txt)
 ```
 ...
 AgL@1A
@@ -51,6 +51,8 @@ AGL@!a
 AGL@!A
 ...
 ```
+
+[Output File](data/output.txt)
 
 ## Authors
 
